@@ -1,0 +1,25 @@
+#menu {
+	position: relative;
+	left: 100px;
+	top: -200px;
+}
+
+#page1 {
+	background-color: rgb(50,50,50);
+}
+
+#page2 {
+	background-color: rgb(36, 109, 226);
+}
+
+#page3 {
+	background-color: rgb(36, 226, 156);
+}
+
+#page4 {
+	background-color: rgb(96, 36, 226);
+}
+
+#page5 {
+	background-color: rgb(226, 127, 36);
+}
