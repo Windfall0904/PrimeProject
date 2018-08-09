@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="28px" height="23px" viewBox="0 0 28 23" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49.3 (51167) - http://www.bohemiancoding.com/sketch -->
+    <title>agenda</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="agenda" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M22,0 L22,5" id="Stroke-1" stroke="#131413" stroke-width="2"></path>
+        <path d="M6,5 L6,0" id="Stroke-3" stroke="#131413" stroke-width="2"></path>
+        <path d="M5,8 L8.962,8" id="Stroke-11-Copy-3" stroke="#131413" stroke-width="2"></path>
+        <path d="M19,8 L22.962,8" id="Stroke-11-Copy-6" stroke="#131413" stroke-width="2"></path>
+        <path d="M12,8 L15.962,8" id="Stroke-11-Copy-9" stroke="#131413" stroke-width="2"></path>
+        <path d="M5,13 L8.962,13" id="Stroke-11-Copy-4" stroke="#131413" stroke-width="2"></path>
+        <path d="M19,13 L22.962,13" id="Stroke-11-Copy-7" stroke="#131413" stroke-width="2"></path>
+        <path d="M12,13 L15.962,13" id="Stroke-11-Copy-10" stroke="#131413" stroke-width="2"></path>
+        <path d="M5,18 L8.962,18" id="Stroke-11-Copy-5" stroke="#131413" stroke-width="2"></path>
+        <path d="M19,18 L22.962,18" id="Stroke-11-Copy-8" stroke="#131413" stroke-width="2"></path>
+        <path d="M12,18 L15.962,18" id="Stroke-11-Copy-11" stroke="#131413" stroke-width="2"></path>
+        <polygon id="Stroke-15" stroke="#131413" stroke-width="2" points="1 22 27 22 27 3 1 3"></polygon>
+    </g>
+</svg>
