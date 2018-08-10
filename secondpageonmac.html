@@ -10,7 +10,7 @@
             <!--Fullpage CSS-->
             <link rel="stylesheet" type="text/css" href="css/fullpage.css"/>
             <!--Personalized CSS-->
-            <link rel="stylesheet" type="text/css" href="css/secondpage.css"/>
+            <link rel="stylesheet" type="text/css" href="css/style_secondpage.css"/>
 
             <title>Hello, world!</title>
         </head>
@@ -20,19 +20,19 @@
             <header>
                 <div class="container w-100">
                     <div class="row my-5 text-uppercase">
-                        <div id="title_container" class="col-lg-3 my-auto">
-                            <a><h1 class="font-weight-bold">Laurent</h1></a>
+                        <div id="title_container" class="col-lg-3 col-md-5 my-auto text-nowrap">
+                            <a href="#"><h1 class="text-dark font-weight-bold mb-0 text-monospace">L a u -<br> r e n t</h1></a>
                         </div>
-                        <div id="nav_container" class="row col-lg-9 font-weight-bold">
-                            <div id="word_nav" class="col-lg-8 my-auto">
+                        <div id="nav_container" class="row col-lg-9 col-md-7 font-weight-bold">
+                            <div id="word_nav" class="col-lg-8 col-md-10 my-auto">
                                 <nav class="nav float-right">
-                                    <a class="nav-link text-dark" href="#">Home</a>
-                                    <a class="nav-link text-dark" href="#">Charlot</a>
-                                    <a class="nav-link text-dark" href="#">Paris</a>
-                                    <a class="nav-link text-dark" href="#">Eiffel</a>
+                                    <a class="nav-link text-dark" href="#"><h5 class="my-auto">Home</h5></a>
+                                    <a class="nav-link text-dark" href="#"><h5 class="my-auto">Charlot</h5></a>
+                                    <a class="nav-link text-dark" href="#"><h5 class="my-auto">Paris</h5></a>
+                                    <a class="nav-link text-dark" href="#"><h5 class="my-auto">Eiffel</h5></a>
                                 </nav>
                             </div>
-                            <div id="icon_nav" class="col-lg-4 my-auto">
+                            <div id="icon_nav" class="col-lg-4 col-md-2 my-auto">
                                 <nav class="nav float-right">
                                     <a class="nav-link" href="#"><img src="icon/icon-warenkorb.svg"></a>
                                     <a class="nav-link" href="#"><img src="icon/icon-beratung.svg"></a>
@@ -47,11 +47,55 @@
             </header>
             <!--main content-->
             <main>
-
+                <div class="container w-100">
+                    <div id="carousel" class="carousel slide" data-ride="carousel">
+                        <ol class="carousel-indicators">
+                            <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                            <li data-target="#carousel" data-slide-to="1"></li>
+                            <li data-target="#carousel" data-slide-to="2"></li>
+                        </ol>
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="embed-responsive embed-responsive-16by9 temp-blank mx-auto" id="slide-1">
+                                    <div class="caption d-flex align-items-center justify-content-center">
+                                        <span class="text-light text-center text-nowrap">Vue de<br>- Seattle</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="embed-responsive embed-responsive-16by9 temp-blank mx-auto" id="slide-2">
+                                    <div class="caption d-flex align-items-center justify-content-center">
+                                        <span class="text-light text-center text-nowrap">你的温柔<br> // 像羽毛</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="embed-responsive embed-responsive-16by9 temp-blank mx-auto" id="slide-3">
+                                    <div class="caption d-flex align-items-center justify-content-center">
+                                        <span class="text-light text-center text-nowrap">Courir Après<br> Toi...</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carousel" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carousel" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
             </main>
             <!--footer-->
             <footer>
-
+                <div class="container w-100 mx-auto my-2 pt-4">
+                    <p class="text-dark text-center">
+                        Originated by Laurent He<br>
+                        Email: tom912418813@gmail.com
+                    </p>
+                </div>
             </footer>
         </div>
 

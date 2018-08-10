@@ -1,0 +1,32 @@
+div.temp-blank {
+    min-height: 300px !important;
+    max-height: 500px !important;
+    min-width: 500px !important;
+    max-width: 1440px !important;
+}
+
+#slide-1 {
+    background-color: #1b1e21;
+}
+
+#slide-2 {
+    background-color: #6c757d;
+}
+
+#slide-3 {
+    background-color: #20c997;
+}
+
+div.caption {
+    position: absolute;
+    top: 20%;
+    bottom: 20%;
+    left: 20%;
+    right: 20%;
+    z-index: 10;
+    font-size: 5rem;
+}
+
+a:hover {
+    text-decoration: none;
+}
